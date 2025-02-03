@@ -12,7 +12,7 @@ import {
 import RNPickerSelect from "react-native-picker-select";
 
 export default function SalesArea() {
-  const [selectedValue, setSelectedValue] = useState("null");
+  const [selectedValue, setSelectedValue] = useState("item1");
   return (
     <>
       <Stack.Screen

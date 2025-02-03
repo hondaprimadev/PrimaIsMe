@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "PrimaIsMe",
-    "slug": "PrimaIsMe",
+    "slug": "primaisme",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "co.id.hondaprima.primaisme"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c409b27-fec9-4e11-9a43-6908b6b55fea"
+      }
+    },
+    "owner": "hondaprimadev"
   }
 }
